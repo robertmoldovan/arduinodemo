@@ -1,15 +1,17 @@
 /*
  Name:		arduinodemo.ino
  Created:	1/12/2020 12:47:34 PM
- Author:	rober
+ Author:	robert
 */
 
-const int ledPin = 13;
+const int ledPin = 10;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
     Serial.begin(9600);
     pinMode(ledPin, OUTPUT);
+
+    countDown(5);
 }
 
 // the loop function runs over and over again until power down or reset
@@ -45,4 +47,15 @@ int checkDirChange(int delayPeriod, int countDir)
     }
 
     return countDir;
+}
+
+void countDown(int max)
+{
+    for (int i = max; i > 0; i--)
+    {
+        Serial.print(i);
+        Serial.print(", ");
+    }
+
+    Serial.println("Go...\n");
 }
