@@ -4,3 +4,5 @@ Requirements:
 - Visual Studio Community 2019 https://visualstudio.microsoft.com/downloads/
 - Visual Micro https://www.visualmicro.com/
 - Arduino IDE https://www.arduino.cc/en/main/software
+
+Tutorial: https://www.youtube.com/watch?v=QO_Jlz1qpDw
