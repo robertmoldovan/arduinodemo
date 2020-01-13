@@ -5,4 +5,5 @@ Requirements:
 - Visual Micro https://www.visualmicro.com/
 - Arduino IDE https://www.arduino.cc/en/main/software
 
-Tutorial: https://www.youtube.com/watch?v=QO_Jlz1qpDw
+Language reference: https://www.arduino.cc/reference/en/
+Video Tutorial: https://www.youtube.com/watch?v=QO_Jlz1qpDw
