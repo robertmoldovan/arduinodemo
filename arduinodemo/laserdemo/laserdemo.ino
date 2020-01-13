@@ -15,4 +15,10 @@ void setup() {
 // the loop function runs over and over again until power down or reset
 void loop() {
     digitalWrite(laserPin, HIGH);
+    static int delayPeriod = 1000; // 1 second
+
+    digitalWrite(laserPin, HIGH);
+    delay(delayPeriod);
+    digitalWrite(laserPin, LOW);
+    delay(delayPeriod);
 }
