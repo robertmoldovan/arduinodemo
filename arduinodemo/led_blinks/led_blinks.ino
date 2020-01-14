@@ -5,7 +5,7 @@
 */
 
 const int ledPinRed = 13;
-const int ledPinGreen = 14;
+const int ledPinGreen = 12;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
