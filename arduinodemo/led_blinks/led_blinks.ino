@@ -21,8 +21,8 @@ void loop() {
     Serial.println("Blink...");
     digitalWrite(ledPinRed, HIGH);   // turn the LED on (HIGH is the voltage level)
     digitalWrite(ledPinBlue, LOW);   // turn the LED on (HIGH is the voltage level)
-    delay(1000);              // wait for a second
+    delay(500);              // wait for a second
     digitalWrite(ledPinRed, LOW);    // turn the LED off by making the voltage LOW
     digitalWrite(ledPinBlue, HIGH);    // turn the LED off by making the voltage LOW
-    delay(1000);              // wait for a second
+    delay(500);              // wait for a second
 }
